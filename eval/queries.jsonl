@@ -1,0 +1,40 @@
+{"id": "q01", "type": "quote", "query": "In the beginning God created the heaven and the earth.", "gold": [["Genesis", 1, 1]], "note": "verbatim whole verse"}
+{"id": "q02", "type": "quote", "query": "The LORD is my shepherd; I shall not want.", "gold": [["Psalms", 23, 1]], "note": "verbatim whole verse"}
+{"id": "q03", "type": "quote", "query": "For God so loved the world, that he gave his only begotten Son", "gold": [["John", 3, 16]], "note": "first half of a verse"}
+{"id": "q04", "type": "quote", "query": "Jesus wept.", "gold": [["John", 11, 35]], "note": "two-word verse"}
+{"id": "q05", "type": "quote", "query": "I am the way, the truth, and the life: no man cometh unto the Father, but by me.", "gold": [["John", 14, 6]], "note": "verse without its opening words"}
+{"id": "q06", "type": "quote", "query": "To every thing there is a season, and a time to every purpose under the heaven", "gold": [["Ecclesiastes", 3, 1]], "note": "verbatim"}
+{"id": "q07", "type": "quote", "query": "Thy word is a lamp unto my feet, and a light unto my path.", "gold": [["Psalms", 119, 105]], "note": "one verse inside the longest chapter"}
+{"id": "q08", "type": "quote", "query": "the wages of sin is death; but the gift of God is eternal life", "gold": [["Romans", 6, 23]], "note": "middle of a verse"}
+{"id": "q09", "type": "quote", "query": "The LORD bless thee, and keep thee: The LORD make his face shine upon thee, and be gracious unto thee", "gold": [{"from": ["Numbers", 6, 24], "to": ["Numbers", 6, 25]}, {"from": ["Numbers", 6, 24], "to": ["Numbers", 6, 26]}], "note": "quote running across two verses"}
+{"id": "q10", "type": "quote", "query": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you", "gold": [["Matthew", 7, 7], ["Luke", 11, 9]], "note": "same words in two gospels"}
+{"id": "n01", "type": "near_quote", "query": "Pride goes before a fall", "gold": [["Proverbs", 16, 18]], "note": "common shortening; the verse says 'destruction' first"}
+{"id": "n02", "type": "near_quote", "query": "An eye for an eye and a tooth for a tooth", "gold": [["Matthew", 5, 38], ["Exodus", 21, 24]], "note": "modern 'and a'; two verses carry it"}
+{"id": "n03", "type": "near_quote", "query": "In the beginning was the Word and the Word was God", "gold": [["John", 1, 1]], "note": "drops 'with God' in the middle"}
+{"id": "n04", "type": "near_quote", "query": "The meek shall inherit the earth", "gold": [["Matthew", 5, 5], ["Psalms", 37, 11]], "note": "half of the Beatitude; Psalms has it too"}
+{"id": "n05", "type": "near_quote", "query": "Let him who is without sin cast the first stone", "gold": [["John", 8, 7]], "note": "reordered; the verse says 'cast a stone at her'"}
+{"id": "n06", "type": "near_quote", "query": "I can do all things through Christ who strengthens me", "gold": [["Philippians", 4, 13]], "note": "'who strengthens', not 'which strengtheneth'"}
+{"id": "n07", "type": "near_quote", "query": "Judge not, lest you be judged", "gold": [["Matthew", 7, 1], ["Luke", 6, 37]], "note": "'lest' for 'that ye be not'"}
+{"id": "n08", "type": "near_quote", "query": "You will know the truth, and the truth will set you free", "gold": [["John", 8, 32]], "note": "'set you free' for 'make you free'"}
+{"id": "n09", "type": "near_quote", "query": "Man shall not live by bread alone", "gold": [["Matthew", 4, 4], ["Luke", 4, 4], ["Deuteronomy", 8, 3]], "note": "three sources, each worded slightly differently"}
+{"id": "n10", "type": "near_quote", "query": "A house divided against itself cannot stand", "gold": [["Mark", 3, 25], ["Matthew", 12, 25]], "note": "'a house divided' for 'if a house be divided'"}
+{"id": "p01", "type": "paraphrase", "query": "Treat other people the way you would want them to treat you", "gold": [["Matthew", 7, 12], ["Luke", 6, 31]], "note": "the golden rule in modern words"}
+{"id": "p02", "type": "paraphrase", "query": "Love is patient and kind; it does not envy, it does not boast, it is not proud", "gold": [["1 Corinthians", 13, 4], {"from": ["1 Corinthians", 13, 4], "to": ["1 Corinthians", 13, 7]}], "note": "modern translation wording"}
+{"id": "p03", "type": "paraphrase", "query": "Don't worry about tomorrow, because tomorrow will bring its own worries", "gold": [["Matthew", 6, 34]], "note": "modern wording"}
+{"id": "p04", "type": "paraphrase", "query": "It is easier for a camel to squeeze through the eye of a needle than for a wealthy person to get into heaven", "gold": [["Matthew", 19, 24], ["Mark", 10, 25], ["Luke", 18, 25]], "note": "half remembered"}
+{"id": "p05", "type": "paraphrase", "query": "Being greedy for money is at the root of every kind of evil", "gold": [["1 Timothy", 6, 10]], "note": "common misquotation corrected"}
+{"id": "p06", "type": "paraphrase", "query": "Even when I go through the darkest valley I am not afraid, because you are beside me", "gold": [["Psalms", 23, 4]], "note": "modern wording"}
+{"id": "p07", "type": "paraphrase", "query": "People who trust in God get their strength back and soar like eagles; they run without getting tired", "gold": [["Isaiah", 40, 31]], "note": "retold"}
+{"id": "p08", "type": "paraphrase", "query": "Everything works out for the good of those who love God", "gold": [["Romans", 8, 28]], "note": "retold"}
+{"id": "p09", "type": "paraphrase", "query": "A gentle reply calms anger, but harsh words make tempers flare", "gold": [["Proverbs", 15, 1]], "note": "modern wording"}
+{"id": "p10", "type": "paraphrase", "query": "Nobody can see God's kingdom without being born a second time", "gold": [["John", 3, 3], {"from": ["John", 3, 3], "to": ["John", 3, 7]}], "note": "retold"}
+{"id": "t01", "type": "topic", "query": "the creation of the world", "gold": [["Genesis", 1], {"from": ["Genesis", 1, 1], "to": ["Genesis", 2, 3]}], "note": "chapter-sized answer"}
+{"id": "t02", "type": "topic", "query": "the ten commandments", "gold": [{"from": ["Exodus", 20, 1], "to": ["Exodus", 20, 17]}, {"from": ["Deuteronomy", 5, 6], "to": ["Deuteronomy", 5, 21]}], "note": "passage in two books"}
+{"id": "t03", "type": "topic", "query": "the parable of the prodigal son", "gold": [{"from": ["Luke", 15, 11], "to": ["Luke", 15, 32]}], "note": "named story, most of a chapter"}
+{"id": "t04", "type": "topic", "query": "what real love looks like", "gold": [["1 Corinthians", 13], {"from": ["1 John", 4, 7], "to": ["1 John", 4, 21]}], "note": "theme"}
+{"id": "t05", "type": "topic", "query": "the birth of Jesus", "gold": [{"from": ["Luke", 2, 1], "to": ["Luke", 2, 20]}, {"from": ["Matthew", 1, 18], "to": ["Matthew", 1, 25]}, {"from": ["Matthew", 2, 1], "to": ["Matthew", 2, 12]}], "note": "story told in two gospels"}
+{"id": "t06", "type": "topic", "query": "Noah and the flood", "gold": [{"from": ["Genesis", 6], "to": ["Genesis", 8]}, ["Genesis", 6], ["Genesis", 7], ["Genesis", 8]], "note": "several chapters; any one is acceptable"}
+{"id": "t07", "type": "topic", "query": "David fights Goliath", "gold": [["1 Samuel", 17], {"from": ["1 Samuel", 17, 32], "to": ["1 Samuel", 17, 51]}], "note": "long chapter"}
+{"id": "t08", "type": "topic", "query": "the Sermon on the Mount", "gold": [{"from": ["Matthew", 5], "to": ["Matthew", 7]}, ["Matthew", 5], ["Matthew", 6], ["Matthew", 7]], "note": "three chapters; any one is acceptable"}
+{"id": "t09", "type": "topic", "query": "the story of Ruth and Naomi", "gold": [["Ruth"], ["Ruth", 1]], "note": "a whole short book"}
+{"id": "t10", "type": "topic", "query": "how to deal with worry and anxiety", "gold": [{"from": ["Matthew", 6, 25], "to": ["Matthew", 6, 34]}, {"from": ["Philippians", 4, 6], "to": ["Philippians", 4, 7]}, ["1 Peter", 5, 7], {"from": ["Luke", 12, 22], "to": ["Luke", 12, 31]}], "note": "theme scattered across books"}

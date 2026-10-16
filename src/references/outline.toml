@@ -1,0 +1,12 @@
+# An example template style: no code needed. Select it with reference_style = "outline".
+#   Policy Manual, Part II, §4(2)–(4)
+
+use_title = true
+separators = [", ", ""]        # between level 1 and 2, then between every deeper pair
+range_separator = "–"
+
+[labels]
+"*" = "auto"                   # "{Name} {value}" for numbers, the bare value for text
+part = "Part {value}"
+section = "§{value}"
+clause = "({value})"

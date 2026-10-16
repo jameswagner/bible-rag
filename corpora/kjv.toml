@@ -1,0 +1,33 @@
+name = "kjv"
+title = "King James Bible"
+text_key = "text"
+reference_style = "bible"      # src/references/bible.ts
+embed_headings = true          # embed "Psalms 23\n<text>"; the returned text never includes the heading
+leaf_separator = "\n"
+
+# Levels, outermost first. No chunk ever crosses a top-level unit (here: a book).
+# Limits are in tokens of the embedding model's tokenizer.
+#   max_tokens: nothing larger is ever embedded at this level; larger units are split.
+#   min_tokens: anything smaller also gets a context window of at least this size.
+
+[[levels]]
+name = "book"
+key = "book"
+min_tokens = 512
+max_tokens = 4800
+
+[[levels]]
+name = "chapter"
+key = "chapter"
+min_tokens = 128
+max_tokens = 1200
+
+[[levels]]
+name = "verse"
+key = "verse"
+min_tokens = 16
+max_tokens = 320
+
+
+[search]
+parent_max_tokens = 1200       # a hit is widened to its parent chunk only if the result stays this small

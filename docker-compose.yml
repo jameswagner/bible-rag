@@ -1,0 +1,12 @@
+services:
+  qdrant:
+    # Pin this once it works for you, e.g. QDRANT_TAG=v1.15.0, to match your qdrant-client minor version.
+    image: qdrant/qdrant:${QDRANT_TAG:-latest}
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+volumes:
+  qdrant_storage:

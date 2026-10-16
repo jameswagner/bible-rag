@@ -1,0 +1,28 @@
+{
+  "name": "hsearch",
+  "version": "0.1.0",
+  "description": "Multi-granularity semantic search for hierarchical documents",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "hsearch": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.19.0",
+    "commander": "^15.0.0",
+    "dotenv": "^18.0.8",
+    "js-tiktoken": "^1.0.21",
+    "openai": "^7.34.0",
+    "smol-toml": "^1.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3"
+  }
+}

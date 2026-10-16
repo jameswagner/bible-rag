@@ -1,0 +1,27 @@
+name = "policy"
+title = "Policy Manual"
+text_key = "text"
+reference_style = "default"    # src/references/default.ts
+embed_headings = true
+leaf_separator = "\n"
+
+[[levels]]
+name = "part"
+key = "part"
+optional = true                # the preamble and the appendix sit outside any part
+label = "Part {value}"
+min_tokens = 120
+max_tokens = 480
+
+[[levels]]
+name = "section"
+key = "section"
+min_tokens = 48
+max_tokens = 240
+
+[[levels]]
+name = "clause"
+key = "clause"
+optional = true                # a section may carry its text directly
+min_tokens = 12
+max_tokens = 120
