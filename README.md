@@ -16,15 +16,10 @@ npm run hsearch -- index        # embeds every chunk into a new collection
 npm run hsearch -- serve        # http://127.0.0.1:8000
 ```
 
-Commands default to `corpora/kjv.toml` and `data/kjv.json`, the copy with short book names
-(`Genesis`, `John`). It is gitignored. The course's `../data/bible/verses.json` uses long book
-titles and can be indexed directly with `--data`, but the bundled evaluation queries need the
-short names.
-
-```bash
-npm run hsearch -- index --data ../data/bible/verses.json
-npm run hsearch -- serve --data ../data/bible/verses.json
-```
+Commands default to `corpora/kjv.toml` and `data/kjv.json`, the King James Bible (public domain)
+with one record per verse. It ships with the repo, and the evaluation queries are written against
+it. Book names are as they appear in the file: most are short (`Genesis`, `John`), and some keep
+their full title (`The General Epistle of James`).
 
 Use the same data, config, tokenizer, and embedding model when indexing and serving. An existing
 collection is not updated incrementally. To delete it and rebuild:
